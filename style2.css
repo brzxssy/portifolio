@@ -1,0 +1,195 @@
+/*  Lugar para adicionar variaveis */ 
+/* cor01: #03045E */
+/* cor02:#474306 */
+/* cor03:#F5EE84 */
+/* cor04:#FBF8CC */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+--primary: #c0c0d6;
+--secondary: #474306;
+--tertiary :#F5EE84 ;
+--background: linear-gradient(90deg, black, purple);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: var(--background);
+    font-family: Poppins, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width:85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 36px auto;
+}
+header .name{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary);
+}
+header .menu ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+header .menu a{
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--primary);
+
+}
+header .social-menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+}
+header .social-menu img{
+    width:26px
+}
+main{
+    width: 85%;
+    margin: 150px auto;
+}
+main .profile {
+    display: flex;
+}
+main .profile .job-area{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    /* color: var(--primary); */
+    background-image: linear-gradient(90deg,rgb(150, 28, 150), rgb(133, 131, 131));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+main .job-area span {
+    font-size: 28px;
+}
+main .job-area h1{
+    font-size: 100px;
+    line-height: 1.16;
+}
+main .job-area a{
+    border: 1px solid  var(--secondary);
+    border-radius: 6px;
+    width: 150px;
+    height: 60px;
+    font-size: 20px;
+    color: var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+main .job-area .background-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--primary);
+    border-radius: 8px;
+    left: 8px;
+    top: 8px;
+    z-index: -1;
+    
+}
+
+main .profile{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+main .photo img{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    filter: drop-shadow(1px 1px 100px purple);
+}
+main .about{
+    font-size: 100px;
+    color: var(--tertiary);
+    
+
+    
+}
+main .lorem{
+    font-size: 24px;
+    width: 900px;
+    color: var(--primary);
+    box-shadow: 1px 1px 10px var(--primary);
+}
+main .lista{
+    margin: 200px;
+    width: 900px;
+    font-size: 24px;
+    color: var(--primary);
+    line-height: 37px;
+    display: flex;
+    gap: 90px;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px var(--primary);
+}
+main .work{
+    font-size: 100px;
+    color: var(--tertiary);
+}
+main .lorem2{
+    font-size: 24px;
+    width: 900px;
+    color: var(--primary);
+    box-shadow: 1px 1px 10px var(--primary);
+}
+main .imagens{
+    width: 560px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 100px;
+    color: var(--primary);
+
+}
+main .some{
+    color: var(--primary);
+    margin: 10px;
+    box-shadow: 1px 1px 10px var(--primary);
+}
+main .case{
+    color: var(--primary);
+    margin: 10px;
+    box-shadow: 1px 1px 10px var(--primary);
+}
+
+main .contact{
+    color: var(--tertiary);
+    margin-top: 300px;
+    font-size: 100px;
+}
+main .lapis{
+    display: flex;
+    gap: 40px;
+    font-size: 24px;
+    color: var(--primary);
+    box-shadow: 1px 1px 10px var(--primary);
+}
+main .arroba{
+    display: flex;
+    margin-top: 100px;
+    font-size: 24px;
+    gap: 40px;
+}
+
+
+
